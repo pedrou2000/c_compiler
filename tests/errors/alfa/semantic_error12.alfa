@@ -1,0 +1,10 @@
+// ****Error semantico en lin X: El indice en una operacion de indexacion tiene que ser de tipo entero.
+main
+{
+    array int[10] vector;
+    boolean b;
+    int x;
+
+    x = vector[b];
+	
+}

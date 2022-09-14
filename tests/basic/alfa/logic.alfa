@@ -1,0 +1,15 @@
+main
+{
+    boolean a, b, c, res;
+
+    scanf a;
+    scanf b;
+    scanf c;
+
+    res = a || b && c;
+    printf res;
+    res = (a || b) && c;
+    printf res;
+    res = !a && b && !c; 
+    printf res;
+}    

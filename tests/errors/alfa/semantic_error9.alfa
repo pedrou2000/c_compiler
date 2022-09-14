@@ -1,0 +1,19 @@
+// ****Error semantico en lin X: Asignacion incompatible.
+main
+{
+    int x, y,z, resultado;
+    boolean a;
+
+	function int suma (int num1; int num2)
+	{
+		return num1+num2;
+	}
+
+    x = 1;
+	y = 3;
+    z = 2;
+	
+	resultado = a;
+ 
+	
+}

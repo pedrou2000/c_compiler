@@ -1,0 +1,16 @@
+// ****Error semantico en lin X: Funcion <nombre_funcion> sin sentencia de retorno.
+main
+{
+    int x, y, resultado;
+    function int suma (int n1; int n2){
+        int w;
+        w = n1 + n2;
+    }    
+
+    scanf x;
+    scanf y;
+
+    resultado = suma(x,y);
+    printf resultado;
+	
+}

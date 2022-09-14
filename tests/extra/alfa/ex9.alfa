@@ -1,0 +1,43 @@
+main {
+    int m, n;
+    array int[10] v;
+    boolean b;
+
+    b = true;
+    printf b;
+
+    // if we add this rule (to exp) the assigment without parenthesis works 
+    // but appears a shift/reduce conflict, if not it does not work =>
+    // => mandatory parenthesis sorrounding comparisons
+    //    | comparacion {
+    //        fprintf(yyout, ";R83:\t<exp> ::= ( <comparacion> )\n");
+    //        $$.tipo = $1.tipo;
+    //        $$.es_direccion = $1.es_direccion;
+    //    }
+
+    //b = 3 > 4;
+    b = (3 > 4);
+    printf b;
+
+
+    m = 44;
+    v[1] = 11;
+    v[2] = m;
+    printf v[2];
+    v[2] = v[1];
+    printf v[2];
+
+    n = 2;
+    v[n] = n*10;
+    printf v[n];
+
+    b = false;
+    printf b;
+    b = (44>11);
+    printf b;
+
+    n = 5;
+    v[n] = n*10;
+    printf v[n];
+
+}

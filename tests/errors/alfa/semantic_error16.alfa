@@ -1,0 +1,17 @@
+// ****Error semantico en lin X: Variable local de tipo no escalar.
+main
+{
+    int x, y, resultado;
+    function int suma (int n1; int n2){
+ 
+        array int[10] vector1;
+        return n1+n2;
+    }    
+ 
+    scanf x;
+    scanf y;
+
+    resultado = suma(x,y);
+    printf resultado;
+	
+}

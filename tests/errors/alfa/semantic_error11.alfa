@@ -1,0 +1,7 @@
+// ****Error semantico en lin X: Intento de indexacion de una variable que no es de tipo vector.
+main
+{
+    int x, y;
+    x = y[1];
+	
+}

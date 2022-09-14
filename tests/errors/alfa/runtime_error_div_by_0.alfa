@@ -1,0 +1,9 @@
+//****Error de ejecucion: Division por cero.
+main
+{
+    int x, y, res;
+
+    x=3;
+    y=0;
+    res =  x / y;
+}    

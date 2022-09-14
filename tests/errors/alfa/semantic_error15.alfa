@@ -1,0 +1,22 @@
+// ****Error semantico en lin X: No esta permitido el uso de llamadas a funciones como parametros de otras
+// funciones.
+main
+{
+    int x, y, resultado;
+    function int suma (int n1; int n2){
+ 
+        return n1 + n2;
+    }    
+
+    function int resta (int n1; int n2){
+ 
+        return n1 - n2;
+    }    
+
+    scanf x;
+    scanf y;
+
+    resultado = suma(resta(8,4),y);
+    printf resultado;
+	
+}

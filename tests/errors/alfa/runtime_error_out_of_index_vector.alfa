@@ -1,0 +1,7 @@
+//****Error de ejecucion: Indice fuera de rango.
+main
+{
+    array int[5] x;
+
+    x[5]=3;
+}    

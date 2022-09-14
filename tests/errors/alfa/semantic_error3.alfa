@@ -1,0 +1,13 @@
+//****Error semantico en lin X: Operacion aritmetica con operandos boolean.
+main
+{
+    int x, y ;
+    boolean a,b; 
+
+    x=1;
+    x=2;
+    a=true;
+    a=false;
+
+    x = a+b;
+}    

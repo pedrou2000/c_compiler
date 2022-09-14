@@ -1,0 +1,19 @@
+// ****Error semantico en lin X: Numero incorrecto de parametros en llamada a funcion
+main
+{
+    int x, y,z, resultado;
+
+	function int suma (int num1; int num2)
+	{
+		return num1+num2;
+	}
+
+    x = 1;
+	y = 3;
+    z = 2;
+	
+	resultado = suma (x,y,z);
+	printf resultado;
+ 
+	
+}
