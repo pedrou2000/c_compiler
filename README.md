@@ -3,7 +3,7 @@
 ## 1. Description of the Project
 
 [//]: # "What was the purpose of the project?" 
-
+The purpose of this project is to create a compiler for a programming language called `alfa` which is a slight simplification of the `C` programming language. Newer versions of the compiler will aim to compile real `C` files. The compiler takes programs written in `alfa` and transform them into `assembly language` programs. 
 
 [//]: # "What your application does?" 
 
