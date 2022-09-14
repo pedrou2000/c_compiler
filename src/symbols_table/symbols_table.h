@@ -6,7 +6,7 @@
 #include <string.h>
 #include <stddef.h>
 #include "hash.h"
-#include "../compiler/alfa.h"
+#include "../compiler_main/alfa.h"
 
 
 typedef struct _symbol {
