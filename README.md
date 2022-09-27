@@ -1,4 +1,4 @@
-# TITLE OF THE PROJECT 
+# C Compiler
 
 ## 1. Description of the Project
 
